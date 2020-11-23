@@ -1,0 +1,90 @@
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.input__container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tasks__list {
+  margin: 50px auto 0 auto;
+}
+
+.input {
+  height: 80%;
+  font-size: 20px;
+}
+
+#input__place {
+  margin: 0;
+  border-radius: 0;
+  width: 25%;
+  padding: 11px;
+  font-size: 20px;
+  height: 90%;
+  padding-bottom: 15.5px;
+}
+
+.btn {
+  width: 10%;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  float: right;
+  height: 30px;
+}
+
+#add__button {
+  padding: 16px;
+  width: 8%;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 15px;
+  height: 90%;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  float: none;
+}
+
+.btn:hover {
+  background-color: #bbb;
+}
+
+.text__container {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.list {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.list__item {
+  height: 30px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.list__item:nth-child(2n) {
+  background-color: #ffcc99;
+}
+
+.list__item:nth-child(2n+1) {
+  background-color: #fceed9;
+}
